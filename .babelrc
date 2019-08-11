@@ -1,0 +1,36 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [],
+  "env": {
+    "test": {
+      "presets": [
+        ["@babel/preset-env", {
+          "targets": {
+            "node": "10.16.0"
+          }
+        }]
+      ]
+    },
+    "development": {
+      "presets": [
+        ["@babel/preset-env", {
+          "targets": {
+            "node": "10.16.0"
+          }
+        }]
+      ]
+    },
+    "production": {
+      "presets": [
+        ["@babel/preset-env", {
+          "targets": {
+            "node": "10.16.0"
+          },
+          "modules": "commonjs"
+        }]
+      ]
+    }
+  }
+}
