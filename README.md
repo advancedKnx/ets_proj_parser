@@ -374,7 +374,7 @@ result = {
     ```
     - ```.projectStart``` stores a date string representing the starting date of the project (```String```)
     - ```.etsVersion``` stores information about the used version of ETS
-        - ```.application``` store the name of the used application (```String```). Normally of of:
+        - ```.application``` store the name of the used application (```String```). Normally one of:
         ```
         "ETS5"          For all variations of ETS five
         "ETS4"          For all variations of ETS four
