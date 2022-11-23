@@ -1,7 +1,7 @@
 {
   "name": "ets_proj_parser",
   "version": "1.0.2",
-  "main": "index.js",
+  "main": "dist/etsProjParser.js",
   "license": "MIT",
   "enigines": {
     "node": ">=8"
